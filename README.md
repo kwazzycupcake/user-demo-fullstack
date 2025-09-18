@@ -39,20 +39,25 @@ CREATE TABLE users (
     email VARCHAR(100) NOT NULL UNIQUE
 );
 
-2. Configure database in application.properties:
+## 💾 Backend Setup
+
+1. Configure database in application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/user_demo
 spring.datasource.username=root
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 
-3. Run backend
+2. Run backend
 
 ./mvn spring-boot:run
 
-Frontend will run at: http://localhost:8080
+Backend will run at: http://localhost:8080
 
-4. Frontend Setup
+
+## 💾 Frontend Setup
+
+1. Frontend Setup
 
  - cd user-demo
  - npm install
