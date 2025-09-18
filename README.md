@@ -3,6 +3,9 @@
 A simple **full-stack demo application** using **React**, **Spring Boot**, and **MySQL** to manage users.  
 The app allows you to **add, view, and delete users**. Each user is displayed as a card in the frontend.
 
+
+![App Screenshot](assets/screenshot.png)
+
 ---
 
 ## 🏗️ Tech Stack
